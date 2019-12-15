@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewFavs"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_no_favs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Favourites"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"/>
+
+</RelativeLayout>
